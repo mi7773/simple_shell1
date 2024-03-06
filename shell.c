@@ -40,7 +40,7 @@ int cdel(char *str, char ch)
  * @str: str
  * @del: del
  *
- * Return - return
+ * Return: return
  */
 char **cotok(char *str, char *del)
 {
@@ -56,7 +56,7 @@ char **cotok(char *str, char *del)
 		tok = strtok(NULL, del);
 		i++;
 	}
-	ca[i] == NULL;
+	ca[i] = NULL;
 	return (ca);
 }
 
